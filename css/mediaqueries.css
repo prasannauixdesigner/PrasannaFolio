@@ -1,0 +1,982 @@
+@media screen and (max-width: 1290px) {
+  .social_connect_icon {
+    left: 8%;
+  }
+
+  #service {
+    margin: -120px -30px;
+  }
+  #work h2 {
+    width: 925px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #about {
+    position: relative;
+    top: 60px;
+    left: 25px;
+  }
+
+  #about h2 {
+    font-size: 48px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+    width: 725px;
+  }
+  #service .desc {
+    display: none;
+  }
+  #service .is-masking {
+    display: inline-block;
+    height: 87px;
+    position: relative;
+    left: 180px;
+    text-align: start;
+    font-family: "Outfit";
+    font-size: 98px;
+    line-height: 88px;
+    letter-spacing: -5.5px;
+    font-weight: 600;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+  .projects h2 {
+    font-size: 48px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+    width: 725px;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  #project_list {
+    margin-top: -80px;
+    background-size: 60% auto;
+  }
+  #project_list .desc {
+    display: none;
+    height: 15.4062px;
+    width: 308.891px;
+    font-family: "Outfit";
+    font-size: 12.387px;
+    font-weight: 600;
+    margin-right: 52px;
+    text-align: right;
+    position: relative;
+    right: 52px;
+  }
+  #project_list .list-group-item:hover .is-masking {
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+  }
+
+  #project_list .is-masking {
+    display: inline-block;
+    height: 87px;
+    position: relative;
+    left: 180px;
+    text-align: start;
+    font-family: "Outfit";
+    font-size: 98px;
+    line-height: 88px;
+    letter-spacing: -5.5px;
+    font-weight: 600;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+  #my-motto {
+    width: 100vw;
+  }
+
+  #my-motto h2 {
+    font-size: 85px;
+    line-height: 85.2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .social_connect_icon {
+    position: absolute;
+  }
+  #about {
+    position: relative;
+    left: -25px;
+    top: 0px;
+    height: 542px;
+  }
+
+  #service {
+    position: relative;
+    left: -25px;
+    top: 0px;
+    height: 742px;
+  }
+  .about_content_label {
+    margin-left: 60px;
+  }
+
+  #service .is-masking {
+    margin-left: -35px;
+  }
+  #work {
+    margin-left: 60px;
+  }
+
+  .projects h2 {
+    font-size: 45px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+    width: 660px;
+  }
+
+  #project_list .is-masking {
+    margin-left: -35px;
+    font-size: 85px;
+  }
+  #my-motto {
+    min-height: 50vh;
+    margin-top: -50px;
+  }
+  #footer {
+    margin-left: 20px;
+    min-height: 30vh;
+    gap: 0px;
+  }
+  .email:hover p,
+  .email a:hover {
+    background-color: #eb5939;
+    color: black;
+    transition: color 0.5s ease;
+    width: 120%;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 850px) {
+  .social_connect_icon {
+    position: relative;
+  }
+  #about {
+    position: relative;
+    left: -25px;
+    top: 0px;
+    height: 542px;
+  }
+  #about h2 {
+    width: 575px;
+    font-size: 48px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+  }
+  #service {
+    position: relative;
+    left: 56px;
+    top: 0px;
+    height: 742px;
+  }
+  .about_content_label {
+    margin-left: 60px;
+  }
+
+  #service .is-masking {
+    margin-left: -35px;
+  }
+
+  #work {
+    margin-left: 90px;
+  }
+
+  #work h2 {
+    font-size: 48px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+    width: 525px;
+  }
+
+  #project_list .is-masking {
+    margin-left: -35px;
+    font-size: 78px;
+  }
+  #my-motto {
+    min-height: 50vh;
+    margin-top: -50px;
+  }
+
+  #my-motto h2 {
+    font-size: 85px;
+    line-height: 85.2px;
+  }
+  #footer {
+    margin-left: 30px;
+    min-height: 30vh;
+  }
+  .email:hover p,
+  .email a:hover {
+    background-color: #eb5939;
+    color: black;
+    transition: color 0.5s ease;
+    width: 100%;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .custom-cursor {
+    display: none;
+  }
+  video {
+    z-index: -1;
+  }
+  .overlay-text {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-btn {
+    padding: 12px 12px;
+    font-size: 14px;
+  }
+  .nav-bar {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 999;
+  }
+  .nav-logo img {
+    width: 64px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 10px;
+    left: 5px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 16px;
+    text-align: right;
+  }
+
+  .overlay-text h1 {
+    font-size: 75px;
+    line-height: 75.2px;
+    z-index: 11;
+  }
+  .social-connect {
+    display: none;
+  }
+  .desc {
+    display: none;
+  }
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+  #about h2 {
+    width: 380px;
+    font-size: 38px;
+    line-height: 45.4px;
+    letter-spacing: -2.5px;
+  }
+  #service {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px -50px;
+  }
+  .about_content_label {
+    margin-left: 30px;
+  }
+
+  #service .is-masking {
+    font-size: 58px;
+    height: 58px;
+    line-height: 54.2px;
+    left: 60px;
+  }
+
+  #work {
+    margin: -180px 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  #work h2 {
+    width: 380px;
+    font-size: 38px;
+    line-height: 45.4px;
+    letter-spacing: -2.5px;
+  }
+  #project_list {
+    background-size: 100% auto;
+    margin-top: 80px;
+  }
+  #project_list .is-masking {
+    margin-left: -135px;
+    font-size: 50px;
+    height: 58px;
+    line-height: 54.2px;
+  }
+  #my-motto {
+    min-height: 50vh;
+    margin-top: -80px;
+  }
+
+  #my-motto h2 {
+    font-size: 54px;
+    line-height: 54.2px;
+  }
+  #footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    min-height: 30vh;
+  }
+  .email {
+    margin-left: 30px;
+  }
+  .email:hover p,
+  .email a:hover {
+    background-color: #eb5939;
+    color: black;
+    transition: color 0.5s ease;
+    width: 100%;
+    font-weight: 600;
+  }
+  .links {
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* Disable desc class when hovering on list-group-item */
+  .list-group-item:hover .desc {
+    opacity: 0;
+  }
+}
+
+/* Media query for small devices (e.g., smartphones) */
+@media (max-width: 768px) {
+  /* Disable desc class when hovering on list-group-item */
+  .list-group-item:hover .desc {
+    opacity: 0;
+  }
+
+  .projects h2 {
+    font-size: 48px;
+    line-height: 52.4px;
+    letter-spacing: -2.5px;
+    width: 540px;
+  }
+
+  .social-connect {
+    position: absolute;
+  }
+  .nav-links {
+    right: 15px;
+  }
+}
+@media screen and (max-width: 390px) {
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  #about h2 {
+    width: 320px;
+    font-size: 36px;
+    line-height: 38.4px;
+    letter-spacing: -2.5px;
+  }
+
+  #work {
+    margin: -180px 30px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #work h2 {
+    width: 320px;
+    font-size: 36px;
+    line-height: 38.4px;
+    letter-spacing: -2.5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #work h2 {
+    width: 350px;
+    font-size: 35px;
+    line-height: 34.4px;
+    letter-spacing: -2.5px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #work {
+    margin: -180px 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  #work h2 {
+    width: 320px;
+    font-size: 33px;
+    line-height: 34.4px;
+    letter-spacing: -2.5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html,
+  body {
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit";
+    color: #b7ab98;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    cursor: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .custom-cursor {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #eb5939;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 9999;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay-text h6 {
+    font-family: "Outfit";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.4px;
+    letter-spacing: 5.92593px;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 120px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .overlay-text h1 {
+    font-family: "Outfit";
+    font-size: 54px;
+    line-height: 54.2px;
+    text-align: center;
+    letter-spacing: -5.5px;
+    height: 375.547px;
+    width: 411.844px;
+    font-weight: 700;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    perspective: 300px;
+  }
+
+  /* NAV BAR STYLING */
+  .nav-bar {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 999;
+  }
+
+  .nav-logo img {
+    width: 54px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 10px;
+    left: 5px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 5px;
+    text-align: right;
+  }
+
+  .nav-links li {
+    text-align: right;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: right;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  /* SOCIAL CONNECT */
+
+  .social-connect {
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px;
+    z-index: 999;
+  }
+
+  .social-connect a {
+    margin: 10px auto;
+    text-decoration: none;
+  }
+
+  .social-connect img {
+    width: 20px;
+  }
+
+  /* ABOUT STYLING */
+  #about {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 55px;
+  }
+
+  #about p {
+    font-family: "Outfit";
+    font-size: 11px;
+    line-height: 16.4px;
+    letter-spacing: 5.5px;
+    text-transform: uppercase;
+  }
+
+  #about h2 {
+    font-family: "Outfit";
+    font-size: 32px;
+    line-height: 35.4px;
+    letter-spacing: -2.5px;
+    width: 285px;
+  }
+  .download-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 35px;
+    border: 1px solid #b7ab98;
+    text-decoration: none;
+    background-color: transparent;
+    color: #b7ab98;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .download-btn:hover {
+    background-color: #eb5939;
+    color: #0d0d0d;
+    text-decoration: none;
+    border: none;
+  }
+  /* SERVICE STYLING */
+
+  /* WHAT I DO */
+  #service {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .about_content_label {
+    font-family: "Outfit";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12.6px;
+    height: 18.6562px;
+    letter-spacing: 5.18518px;
+    margin-block-end: 22.2222px;
+    margin-bottom: 22.2222px;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .list-group-item {
+    border-color: #222;
+    border-left: 0;
+    border-right: 0;
+    border-width: 0.3;
+    cursor: pointer;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d0d0d;
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
+
+  .list-group-item:hover {
+    border: 0;
+    background-color: #eb5939;
+    color: #0d0d0d;
+  }
+
+  .desc {
+    display: none;
+    height: 15.4062px;
+    width: 308.891px;
+
+    font-size: 12.387px;
+    font-weight: 600;
+    margin-right: 52px;
+    text-align: left;
+    position: relative;
+    right: 52px;
+  }
+
+  .list-group-item:hover .desc {
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+    border-top: none;
+  }
+
+  .is-masking {
+    display: inline-block;
+    height: 87px;
+    position: relative;
+    left: 235px;
+    text-align: start;
+    font-family: "Outfit";
+    font-size: 85px;
+    line-height: 88px;
+    letter-spacing: -5.5px;
+    font-weight: 600;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  .list-group-item:hover .is-masking {
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+  }
+
+  /* WORKS */
+
+  #works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #work {
+    margin-top: 0px;
+  }
+  .projects h6 {
+    font-family: "Outfit";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.4px;
+    letter-spacing: 5.92593px;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: -30px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  #work h2 {
+    font-family: "Outfit";
+    font-size: 32px;
+    line-height: 35.4px;
+    letter-spacing: -2.5px;
+    width: 280px;
+  }
+
+  #project_list {
+    height: 875px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    background: url(../img/planet-1-1.png);
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease-out;
+  }
+  #project_list .list-group-item {
+    border-color: #222;
+    border-left: 0;
+    border-right: 0;
+    border-width: 0.3;
+    cursor: pointer;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d0d0d00;
+    position: relative;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  #project_list .list-group-item:hover {
+    border: 0;
+    background-color: #eb5939;
+    color: #0d0d0d;
+    text-decoration: none;
+  }
+
+  #project_list .desc {
+    display: none;
+    height: 15.4062px;
+    width: 308.891px;
+    font-family: "Outfit";
+    font-size: 12.387px;
+    font-weight: 600;
+    margin-right: 52px;
+    text-align: right;
+    position: relative;
+    right: 52px;
+    text-decoration: none;
+  }
+
+  #project_list .list-group-item:hover .desc {
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+    border-top: none;
+    text-decoration: none;
+  }
+
+  #project_list .is-masking {
+    display: inline-block;
+    height: 45px;
+    position: relative;
+    left: 180px;
+    text-align: start;
+    font-family: "Outfit";
+    font-size: 45px;
+    line-height: 45.4px;
+    letter-spacing: -4.5px;
+    font-weight: 600;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  #project_list .list-group-item:hover .is-masking {
+    display: block;
+    color: #0d0d0d;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* MY MOTTO */
+  #my-motto {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin-top: 0px;
+  }
+
+  #my-motto h6 {
+    font-family: "Outfit";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.4px;
+    letter-spacing: 5.92593px;
+    color: #b7ab98;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  #my-motto h2 {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -3.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #b7ab98;
+  }
+  #my-motto p {
+    font-size: 16px;
+  }
+  /* FOOTER */
+
+  footer {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .footer-desc p {
+    font-size: 13px;
+    line-height: 16.4px;
+    font-weight: 600;
+  }
+  footer ul li {
+    list-style: none;
+    text-align: left;
+  }
+  .footer-desc a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 27.4px;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 0.5px;
+    color: #b7ab98;
+    width: 100%;
+  }
+
+  .connect h5 {
+    font-size: 12px;
+    line-height: 16.4px;
+    letter-spacing: 5.5px;
+    color: #b7ab98;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .connect ul li a {
+    font-size: 38px;
+    line-height: 36.2px;
+    letter-spacing: -2.5px;
+    color: #b7ab98;
+    font-weight: 600;
+  }
+
+  .links h5 {
+    font-size: 12px;
+    line-height: 16.4px;
+    letter-spacing: 5.5px;
+    color: #b7ab98;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .links ul li a {
+    font-size: 38px;
+    line-height: 32.2px;
+    letter-spacing: -2.5px;
+    color: #b7ab98;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  /* Style for the links within the connect, email, contact, and links classes */
+
+  .links li a:hover {
+    background-color: #eb5939;
+    color: black;
+    transition: color 0.5s ease;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+  }
+
+  .email:hover p,
+  .email a:hover {
+    background-color: #eb5939;
+    color: black;
+    transition: color 0.5s ease;
+    width: 70%;
+    font-weight: 600;
+  }
+}
